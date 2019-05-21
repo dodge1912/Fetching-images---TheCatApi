@@ -19,6 +19,14 @@ html {
     cursor: pointer;
     padding: 10px;
 }
+
+img {
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    margin: 16px;
+    box-sizing: content;
+}
 @media only screen and ( min-width : 320px ){
 
     html {
@@ -26,12 +34,6 @@ html {
         background-size: cover;
     }
 
-    .flex_m{
-        position: relative;
-        right: 25%;
-        
-    }
-    
     .title{
         color: rgba(46, 41, 41, 0.671);
     }
